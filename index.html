@@ -1,8 +1,66 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en-us">
 	<head>
-		<title>personal website test</title>
+		<title>personal website</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="personal.style.css">
+	<style>
+
+			h1{
+				font-size: 50px;
+				color: #eae0d5;
+				font-family: 'Aboreto', sans-serif;
+				text-shadow: 2px 4px 5px #212529;
+				line-height: 50vh;
+			}
+
+			body {
+    			margin: 0;
+    			position: relative;
+				}
+
+			body::before {
+    		content: "";
+   		 	background-image: url('img/picture2.jpg');
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		background-position: center; 
+    		background-attachment: scroll;
+    		opacity: 0.7; 
+   			z-index: -1; 
+		    position: absolute; 
+    		width: 100%;    
+    		height: 100%;   
+			}
+
+    		figure {
+				height: 50vh;
+			}
+
+			figure > img {
+				margin: 20vh 0;
+				height: 50vh;
+				border-radius: 20vh;
+			}
+	</style>
 	</head>
+
 	<body>
-		this is my personal website!
+		<nav>
+			<a href= "index.html">HOMEPAGE</a>
+			<a>/</a>
+			<a href= "personal.html">MEEE!</a>
+			<a>/</a>
+			<a href="kpop.html">K-POP</a>
+		</nav>
+
+		<article style="text-align: center;">
+			<figure>
+				<img src="img/profile.jpeg">
+			</figure>
+			<h1> Anne Chang's Personal Site</h1>
+		</article>
+		<footer>
+			<a>stu113042006@gapp.nthu.edu.tw</a>
+		</footer>
 	</body>
-<html>

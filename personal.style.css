@@ -1,0 +1,83 @@
+/*gray: #8e9aaf purple: #cbc0d3 brownp: #efd3d7 pink: #feeafa blue: #dee2ff*/
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Asul:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Asul:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libre+Caslon+Display&display=swap');
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	min-height: 100%;
+	background-color: #f5ebe0;
+	font-family: Libre Caslon Display, serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+nav {
+	position: fixed;
+	top:0;
+	width: 100%;
+	height: 70px;
+	font-family: EB Garamond, sans-serif;
+	background-color: #d5bdaf;
+	font-size: 25px;
+	line-height: 70px;
+	z-index: 999;
+	opacity: 0.8;
+}
+
+nav > a:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+nav a, nav a:visited {
+	text-decoration: none;
+	color: saddlebrown;
+	margin: 0 10px; 
+	font-weight: bold;
+	opacity: 1;
+}
+
+footer {
+	width: 100%;
+	background-color: #f5ebe0;
+	font-family: EB Garamond, Aboreto,sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+	text-decoration:none; 
+	text-align: right;
+	position: relative;
+    bottom: 0;      
+ 	left: 0;
+}
+
+footer > a {
+			color: saddlebrown;
+			bottom:0;
+			margin: 0 10px;
+			font-weight: bold;
+}
+
+section {
+	 background-color: ;
+}
+
+section > p {
+	height: vh;
+	line-height: vh;
+	border-bottom: px dotted #EAD7D7;
+}
+
+section > p:not(:last-of-type) {
+	border-bottom: px dotted #EAD7D7;
+}
